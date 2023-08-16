@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+
+    font-family: bebas;
+    font-size: 15px;
+    color: white;
+    word-spacing: 10px;
+}
+header{
+    background-image: linear-gradient(rgba(87, 85, 85, 0.5),rgba(87, 85, 85, 0.5)), url("img/bunga1.jpg");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top:15px;
+    margin-left: 700px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:white;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid white;
+}
+ul li a:hover{
+    background-color:yellow;
+    color:black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.menu  {
+    max-width: 1200px;
+    margin-right: 25px;
+
+}
+.title {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+.title h1{
+    position: relative;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    margin-top: 30%;
+    left: 5%;
+}
+.title2 h1{
+    position: absolute;
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-variant: initial;
+    top: 40%;
+    left: 20%;
+}
+.find{
+    position: absolute;
+    top: 46%;
+    left: 810px;
+    color: white;
+    border: 1px;
+    border-color: black;
+}
+.pilihan{
+    position: absolute;
+    color:white;
+    background-color: transparent;
+    border-color:whitesmoke;
+    top: 50%;
+    left: 820px;
+}
+
+.search {
+    position: absolute;
+    top: 55%;
+    left: 830px;
+    background-color: white;
+    color: black;
+}

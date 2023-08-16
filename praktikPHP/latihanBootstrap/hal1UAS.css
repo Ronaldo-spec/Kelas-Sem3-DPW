@@ -1,0 +1,86 @@
+body,html
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 600px auto;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    display: grid;
+    grid-template-areas: "header header"
+        "main main"
+        "footer footer";
+    grid-template-columns: 1fr 4fr;
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+    margin-bottom:40px;
+    margin-left: 0px;
+}
+
+ul li a{
+    text-decoration:black;
+    color:black;
+    padding: 5px 20px;
+    box-decoration-break: slice;
+}
+ul li a:hover{
+    background-color:yellow;
+    color:black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+header{
+    background-image: url('onigiri.jpg');
+    background-position-y: center;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 250px;
+}
+
+main{
+    grid-area: main;
+    box-sizing: border-box;
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    background: url('sushi.jpeg');
+    height: 250px;
+}
+
+footer{
+    grid-area: footer;
+    padding: 0px 0;
+    height: 250px;
+    background: url('sashimi.jpg');
+}
+
+
+
+h1{
+    position: relative;
+    color:darkgoldenrod;
+    font-family: electroharmonix;
+    font-size: 70px;
+    margin-top: 26%;
+    right: 10%;
+}
+h2{
+    position: relative;
+    color: black;
+    font-family: electroharmonix;
+    font-style: oblique;
+    margin-top: 33%;
+    right: 61%;
+}
